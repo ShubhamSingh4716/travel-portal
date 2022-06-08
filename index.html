@@ -1,51 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Singh tours n travel</title>
-</head>
-<h1>Travel the world with us</h1>
-<img src="https://lh3.googleusercontent.com/p/AF1QipOn_HKCsJlUtGqUkLhbvj6l7Q8JxkldhZWybxtV=w768-h768-n-o-k-v1" alt="" width="222px">
-
-<body>
-    <div>
-        <h2>Travel form</h2>
-    <form action="form.php"></form>
-    <h3><label for="Enter your name">Enter your Name:</label>
-        <input type="text" placeholder="Enter your name"></h3>
-    
-    <h2><label for="email">Enter your email:</label>
-
-        <input type="email" id="email"
-               pattern=".+@globex\.com" size="50" required placeholder="Enter your email">
-        </h2>
-        <h2> 
-            <label for="Destination">Choose your location:</label>
-<input list="Top tourist destination" id="Destination" name="Destination" />
-
-<datalist id="Top tourist destination">
-    <option value="Kashmir">
-    <option value="Manali">
-    <option value="Jammu">
-    <option value="Ooty">
-    <option value="Mumbai">
-</datalist>
-
-        </h2>
-    <h3>Mode of payment</h3>
-    <label for="SectionID"></label>
-    <input type="radio" value="Cash" name="Mode of payment" id="SectionID" > Cash
-    <input type="radio" value="Card" name="Mode of payment" id="SectionID"> Card
-    <input type="radio" value="UPI" name="Mode of payment" id="SectionID"> UPI
-    
-    <br>
-    <br>
-    <input type="submit" value="Submit">
-
-
-
-    
-</body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="background.html">
+    <div class="class">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Singh tours n travel</title>
+    </head>
+    <h1>Travel the world with us</h1>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <img src="https://lh3.googleusercontent.com/p/AF1QipOn_HKCsJlUtGqUkLhbvj6l7Q8JxkldhZWybxtV=w768-h768-n-o-k-v1" alt="" width="222px">
+    <body>
+        <div class="red">COVID-19 Travel Advisories and Travel Restrictions.</div>
+        <div>
+            <h2>Travel form</h2>
+            <form action="form.php"></form>
+            <h3><label for="Enter your name">Enter your Name:</label>
+                <input type="text" placeholder="Enter your name">
+            </h3>
+            <h2><label for="email">Enter your email:</label>
+                <input type="email" id="email"
+                    pattern=".+@globex\.com" size="50" required placeholder="Enter your email">
+            </h2>
+            <h2>
+                <label for="Destination">Choose your location:</label>
+                <input list="Top tourist destination" id="Destination" name="Destination" />
+                <datalist id="Top tourist destination">
+                    <option value="Kashmir">
+                    <option value="Manali">
+                    <option value="Jammu">
+                    <option value="Ooty">
+                    <option value="Chennai">
+                    <option value="Kanpur">
+                    <option value="Lucknow">
+                    <option value="Patna">
+                    <option value="Tezpur">
+                </datalist>
+            </h2>
+            <h3>Mode of payment</h3>
+            <label for="SectionID"></label>
+            <input type="radio" value="Cash" name="Mode of payment" id="SectionID" > Cash
+            <input type="radio" value="Card" name="Mode of payment" id="SectionID"> Card
+            <input type="radio" value="UPI" name="Mode of payment" id="SectionID"> UPI
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </div>
+    </body>
 </html>
+
